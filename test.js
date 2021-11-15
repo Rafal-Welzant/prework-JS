@@ -1,7 +1,9 @@
-var links = document.getElementsByTagName("a");
+function getAvarage (a,b){
 
-for(i = 0; i < links.length; i++){
-
-    links[i].className = "link-" + i;
+var avarage = ( a + b ) / 2;
+console.log(avarage);
 
 }
+
+getAvarage(7,12);
+alert("hello")
